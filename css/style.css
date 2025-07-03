@@ -173,6 +173,13 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
 .footer-bottom { text-align: center; padding-top: 20px; font-size: 0.8rem; color: #888; }
 .footer-bottom a { color: #aaa; text-decoration: none; }
 
+.font-poppins-bold {
+    font-family: var(--font-body); /* Usa il font 'Poppins' */
+    font-weight: 700;              /* Lo rendiamo grassetto */
+    text-transform: uppercase;     /* Mantiene il testo maiuscolo */
+    letter-spacing: 2px;           /* Aggiungiamo un po' di spazio tra le lettere */
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     h2 { font-size: 2.2rem; }
