@@ -176,17 +176,59 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
 /* Responsive */
 @media (max-width: 768px) {
     h2 { font-size: 2.2rem; }
-    .split-layout, .feature-grid { flex-direction: column; }
-    .feature-grid { grid-template-columns: 1fr; }
-    .footer-grid { grid-template-columns: 1fr; gap: 30px; }
-    .cta-content h2 { font-size: 3rem; }
-    .cta-content h4 { font-size: 1.5rem; }
-}
 
-/* Classe specifica per la parola SAPORI */
-.font-poppins-bold {
-    font-family: var(--font-body); /* Usa il font 'Poppins' */
-    font-weight: 700;              /* Lo rendiamo grassetto */
-    text-transform: uppercase;     /* Mantiene il testo maiuscolo */
-    letter-spacing: 2px;           /* Aggiungiamo un po' di spazio tra le lettere */
+    /* --- 1. Logo più piccolo --- */
+    .site-header .container {
+        height: 80px; /* Altezza ridotta per mobile */
+    }
+    .site-header .logo img {
+        height: 70px; /* Dimensione del logo ridotta */
+    }
+    main {
+        padding-top: 80px; /* Spazio per l'header ridotto */
+    }
+    /* --- Fine modifica logo --- */
+
+    .split-layout {
+        flex-direction: column;
+    }
+
+    /* --- 2. Prima sezione centrata --- */
+    #sapori .split-content {
+        text-align: center;
+    }
+    .button-group {
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* Aggiunto per spaziare i bottoni */
+    }
+    .button-group .btn {
+        margin-right: 0; /* Rimuove il margine precedente */
+    }
+    /* --- Fine modifica prima sezione --- */
+    
+    .feature-grid { 
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .cta-content h2 {
+        font-size: 3rem;
+    }
+    .cta-content h4 {
+        font-size: 1.5rem;
+    }
+    
+    /* --- 3. Loghi recensioni più piccoli e in linea --- */
+    .review-logos {
+        gap: 40px; /* Riduce lo spazio tra i loghi per farli stare in linea */
+    }
+    .review-logos img {
+        height: 30px; /* Rimpicciolisce i loghi */
+    }
+    /* --- Fine modifica loghi recensioni --- */
 }
