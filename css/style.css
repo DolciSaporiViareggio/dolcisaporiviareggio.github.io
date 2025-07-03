@@ -395,3 +395,47 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
 .intro-section .btn {
     margin-top: 2rem;
 }
+
+/* === STILI PER PAGINA "DOVE SIAMO" === */
+
+.location-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+.location-section h2 {
+    margin-bottom: 1rem;
+}
+.location-subtitle {
+    color: var(--color-text-light);
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    text-align: left;
+}
+.map-container iframe {
+    border-radius: 8px;
+    height: 100%;
+    min-height: 400px;
+}
+.storefront-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.directions-button-container {
+    margin-top: 40px;
+}
+
+/* Responsive per Pagina Dove Siamo */
+@media (max-width: 768px) {
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+}
