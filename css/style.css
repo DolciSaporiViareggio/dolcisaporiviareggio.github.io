@@ -88,8 +88,7 @@ h4 {
 
 /* Sezioni Principali */
 .hero {
-    height: 60vh;
-    background-image: url('images/sfondo-hero.jpg');
+    height: 10vh;
     background-size: cover;
     background-position: center;
 }
