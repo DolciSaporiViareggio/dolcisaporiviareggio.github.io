@@ -95,7 +95,7 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
 }
 
 /* Sezione Sapori e Slider */
-.content-section { padding: 80px 0; }
+.content-section { padding: 100px 0; }
 .split-layout { display: flex; align-items: center; gap: 60px; }
 .split-layout > div { flex: 1; }
 .split-image-slider { position: relative; height: 450px; }
