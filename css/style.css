@@ -186,10 +186,10 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
 
     /* --- 1. Logo più piccolo --- */
     .site-header .container {
-        height: 80px; /* Altezza ridotta per mobile */
+        height: 150px; /* Altezza ridotta per mobile */
     }
     .site-header .logo img {
-        height: 70px; /* Dimensione del logo ridotta */
+        height: 140px; /* Dimensione del logo ridotta */
     }
     main {
         padding-top: 80px; /* Spazio per l'header ridotto */
@@ -235,7 +235,7 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
         gap: 40px; /* Riduce lo spazio tra i loghi per farli stare in linea */
     }
     .review-logos img {
-        height: 30px; /* Rimpicciolisce i loghi */
+        height: 80px; /* Rimpicciolisce i loghi */
     }
     /* --- Fine modifica loghi recensioni --- */
 
