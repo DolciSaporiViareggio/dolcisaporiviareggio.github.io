@@ -39,9 +39,9 @@ h4 { font-family: var(--font-heading); font-size: 1.5rem; color: var(--color-pri
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 150px;
 }
-.site-header .logo img { height: 80px; display: block; }
+.site-header .logo img { height: 150px; display: block; }
 .menu-toggle { cursor: pointer; }
 .menu-toggle svg { fill: var(--color-primary); width: 30px; height: 30px; }
 .header-placeholder { width: 30px; }
