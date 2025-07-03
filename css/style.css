@@ -231,4 +231,10 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
         height: 30px; /* Rimpicciolisce i loghi */
     }
     /* --- Fine modifica loghi recensioni --- */
+
+    h2.font-poppins-bold {
+    font-size: 2.5rem; /* Puoi aggiustare questa dimensione se vuoi */
+    display: block;    /* Assicura che sia sempre visibile */
+    line-height: 1.2;  /* Migliora l'interlinea su mobile */
+}
 }
