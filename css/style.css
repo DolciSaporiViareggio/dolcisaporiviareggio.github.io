@@ -39,13 +39,13 @@ h4 { font-family: var(--font-heading); font-size: 1.5rem; color: var(--color-pri
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
+    height: 200px;
 }
-.site-header .logo img { height: 150px; display: block; }
+.site-header .logo img { height: 200px; display: block; }
 .menu-toggle { cursor: pointer; }
 .menu-toggle svg { fill: var(--color-primary); width: 30px; height: 30px; }
 .header-placeholder { width: 30px; }
-main { padding-top: 90px; /* Spazio per l'header fisso */ }
+main { padding-top: 150px; /* Spazio per l'header fisso */ }
 
 /* Menu Laterale */
 .side-nav {
