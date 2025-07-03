@@ -370,3 +370,28 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
         grid-template-columns: 1fr;
     }
 }
+
+/* === STILI PER PAGINA "PRENOTAZIONI" === */
+
+.booking-info p {
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 0.5rem auto;
+}
+
+.booking-info a {
+    color: var(--color-primary);
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.booking-info a:hover {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.intro-section .btn {
+    margin-top: 2rem;
+}
