@@ -243,12 +243,13 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
     font-size: 2.5rem; /* Puoi aggiustare questa dimensione se vuoi */
     display: block;    /* Assicura che sia sempre visibile */
     line-height: 1.2;  /* Migliora l'interlinea su mobile */
+    }
 
     h1.font-poppins-bold {
     font-size: 2.5rem; /* Puoi aggiustare questa dimensione se vuoi */
     display: block;    /* Assicura che sia sempre visibile */
     line-height: 1.2;  /* Migliora l'interlinea su mobile */
-}
+    }
 }
 
 /* === STILI PER PAGINA "IL LOCALE" === */
