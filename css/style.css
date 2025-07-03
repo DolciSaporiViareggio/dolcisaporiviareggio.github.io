@@ -280,7 +280,6 @@ main { padding-top: 150px; /* Spazio per l'header fisso */ }
     z-index: 2;
 }
 .page-hero h1 {
-    font-family: var(--font-heading);
     font-size: 4rem;
     text-transform: uppercase;
     line-height: 1.2;
