@@ -144,7 +144,7 @@ main { padding-top: 90px; /* Spazio per l'header fisso */ }
     display: flex; justify-content: center; align-items: center;
     text-align: center; padding: 100px 20px; min-height: 70vh;
     color: var(--color-light);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/sfondo-viareggio.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/viareggio_1.jpg');
     background-size: cover; background-position: center; background-attachment: fixed;
 }
 .cta-content h4 { color: var(--color-light); font-size: 2rem; }
